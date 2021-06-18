@@ -1,3 +1,4 @@
+
 let button = document.querySelector("button");
 let answer = document.querySelector("#answer");
 let input = document.querySelector("#questionArea");

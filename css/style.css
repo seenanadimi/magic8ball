@@ -5,13 +5,17 @@ body {
   font-style: san-serif;
 }
 
+
+
 #content {
   background: white;
   width: 400px;
-  margin: auto;
+  margin: auto auto;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
+  
+  
 }
 #eightBall {
   width: 350px;
