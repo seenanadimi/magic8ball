@@ -1,9 +1,16 @@
 
-let button = document.querySelector("button");
+let button = document.querySelector("#ask");
 let answer = document.querySelector("#answer");
 let input = document.querySelector("#questionArea");
+let reset = document.querySelector("#reset")
 
 button.addEventListener("click", eightBallFunction);
+reset.addEventListener("click", resetButton);
+
+function resetButton(){
+  input.value = '';
+  answer.innerHTML = "Ask Again Later";
+}
 
 function eightBallFunction() {
   //generate random number
@@ -13,7 +20,7 @@ function eightBallFunction() {
 
   if (input.value == "") {
     alert("You did not enter a question...");
-    return;
+      return;
   }
 
   if (randomNum == 0) {
