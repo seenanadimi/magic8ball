@@ -1,5 +1,7 @@
-# Bootstrap-Boilerplate
-A boilerplate for Bootstrap Projects
+# Magic 8 Ball
+javascriptBitwise/ 
+instructor: vinson/
+
 
 
 ## Running On 
