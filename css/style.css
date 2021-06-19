@@ -1,11 +1,10 @@
 body {
-  background: linear-gradient(90deg, red, blue);
+  background: linear-gradient(90deg, blue, red);
 }
+
 * {
-  font-style: san-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
-
 
 #content {
   background: white;
@@ -14,8 +13,6 @@ body {
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  
-  
 }
 #eightBall {
   width: 350px;
