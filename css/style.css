@@ -19,6 +19,19 @@ body {
   height: 350px;
   background: black;
   color: white;
-  margin: auto;
-  border-radius: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#eightBall_style {
+  width: 50%;
+  height:50%;
+  background-color: #333;
+  border:1px solid #333;
+  margin:25% auto;
+  border-radius: 50%;
+}
+#answer {
+  margin:0;
+  width: 75%;
 }
