@@ -1,4 +1,3 @@
-
 let button = document.querySelector("#ask");
 let answer = document.querySelector("#answer");
 let input = document.querySelector("#questionArea");
@@ -17,12 +16,11 @@ function eightBallFunction() {
   let randomNum = generateRandomNum(8);
   // turn random number into answer
   let answerText = "";
-
   if (input.value == "") {
     alert("You did not enter a question...");
       return;
   }
-
+  
   if (randomNum == 0) {
     answerText = "It is certain.";
   } else if (randomNum == 1) {
@@ -40,7 +38,6 @@ function eightBallFunction() {
   } else {
     answerText = "Do not count on it.";
   }
-
   //display answer in answer p tag
   answer.innerHTML = answerText;
   console.log(answerText);
