@@ -24,7 +24,7 @@ const answerArray = [
   "Concentrate and ask again",
 ];
 
-button.addEventListener("click", displayImage);
+button.addEventListener("click", displayAnswer);
 reset.addEventListener("click", resetButton);
 
 function generateRandomNum(num) {
@@ -36,7 +36,7 @@ function resetButton() {
   answer.innerHTML = "Ask Again Later";
 }
 
-function displayImage() {
+function displayAnswer() {
   if (input.value == "") {
     alert("Enter a question...");
     return;
