@@ -16,11 +16,12 @@ function eightBallFunction() {
   let randomNum = generateRandomNum(8);
   // turn random number into answer
   let answerText = "";
+  //alert if no text is entered
   if (input.value == "") {
     alert("You did not enter a question...");
       return;
   }
-  
+  //if else statement for answers
   if (randomNum == 0) {
     answerText = "It is certain.";
   } else if (randomNum == 1) {
@@ -42,7 +43,7 @@ function eightBallFunction() {
   answer.innerHTML = answerText;
   console.log(answerText);
 }
-
+//random num gen function
 function generateRandomNum(num) {
   return Math.floor(Math.random() * num);
 }
