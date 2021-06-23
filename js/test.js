@@ -19,7 +19,6 @@ const answerArray = [
   "Outlook not so good",
   "Very doubtful",
   "Reply hazy, try again",
-  "Ask again later",
   "Better not tell you now",
   "Cannot predict now",
   "Concentrate and ask again",
@@ -42,5 +41,5 @@ function displayImage() {
     alert("Enter a question...");
     return;
   }
-  answer.innerHTML = answerArray[generateRandomNum(20)];
+  answer.innerHTML = answerArray[generateRandomNum(19)];
 }
