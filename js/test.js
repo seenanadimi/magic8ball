@@ -1,9 +1,9 @@
-//query selectors for html elements
+//made variables with query selectors for html elements
 const input = document.querySelector("#questionArea");
 const button = document.querySelector("#ask");
 const reset = document.querySelector("#reset");
 const answer = document.querySelector("#answer");
-//answer array 
+//answer array variable 
 const answerArray = [
   "It is certain",
   "It is decidedly so",
@@ -25,7 +25,7 @@ const answerArray = [
   "Cannot predict now",
   "Concentrate and ask again",
 ];
-//event listeners
+//event listeners on ask and reset buttons
 button.addEventListener("click", displayAnswer);
 reset.addEventListener("click", resetButton);
 //random number generator 
@@ -39,7 +39,7 @@ function resetButton() {
 }
 //display answers function
 function displayAnswer() {
-  if (input.value == "") {
+    if (!input.value.includes("?")) {
     alert("Enter a question...");
     return;
   }
